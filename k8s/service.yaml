@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: heart-api
+  labels:
+    app: heart-api
+spec:
+  type: LoadBalancer      # Minikube: run `minikube tunnel`; Docker Desktop: available on localhost
+  selector:
+    app: heart-api
+  ports:
+    - name: http
+      port: 80
+      targetPort: http

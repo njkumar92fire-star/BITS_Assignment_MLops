@@ -1,0 +1,9 @@
+# Minimal runtime dependencies for the container (must match training versions)
+numpy==2.4.4
+pandas==3.0.2
+scikit-learn==1.8.0
+joblib==1.5.3
+fastapi==0.143.2
+uvicorn[standard]==0.54.0
+pydantic>=2.7,<3
+prometheus-client==0.26.0

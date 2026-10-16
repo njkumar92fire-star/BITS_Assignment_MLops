@@ -1,0 +1,8 @@
+# Used by docker-compose (the Kubernetes version lives in k8s/monitoring/prometheus.yaml)
+global:
+  scrape_interval: 5s
+scrape_configs:
+  - job_name: heart-api
+    metrics_path: /metrics
+    static_configs:
+      - targets: ["api:8000"]
