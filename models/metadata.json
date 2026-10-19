@@ -1,8 +1,8 @@
 {
   "model_name": "logistic_regression",
-  "trained_at": "2026-10-16T08:42:59.652982+00:00",
-  "mlflow_run_id": "a0265296f904436789968fc9d23eef6e",
-  "mlflow_model_uri": "models:/m-d6f05524f423442b993dcf73c1eb8aa6",
+  "trained_at": "2026-10-16T17:48:17.285758+00:00",
+  "mlflow_run_id": "cb4e7335242f4015969259d9b7e63ca8",
+  "mlflow_model_uri": "models:/m-48533b09b3ad4b598ed11c34fb660ecc",
   "feature_columns": [
     "age",
     "trestbps",
@@ -18,8 +18,8 @@
     "fbs",
     "exang"
   ],
-  "sklearn_version": "1.8.0",
-  "python_version": "3.12.3",
+  "sklearn_version": "1.9.1",
+  "python_version": "3.14.0",
   "best_params": {
     "clf__C": 1
   },
@@ -66,7 +66,7 @@
         "test_f1": 0.8813559322033898,
         "test_roc_auc": 0.9675324675324676
       },
-      "run_id": "5182b37ce44248b2a56f576959fd9548"
+      "run_id": "c0b4892f64da47c0a1d0710eda27546f"
     },
     "random_forest": {
       "best_params": {
@@ -93,7 +93,7 @@
         "test_f1": 0.8421052631578947,
         "test_roc_auc": 0.9491341991341992
       },
-      "run_id": "d6319d3002394ed5bade994804e9802f"
+      "run_id": "98669d3352194956844456d207da4114"
     },
     "gradient_boosting": {
       "best_params": {
@@ -120,7 +120,7 @@
         "test_f1": 0.896551724137931,
         "test_roc_auc": 0.9588744588744589
       },
-      "run_id": "70dd67311e8b4dbfac0bfc981d29c4bf"
+      "run_id": "f6d1d90c4c6b4be3902bed61ff6af7a7"
     }
   }
 }
