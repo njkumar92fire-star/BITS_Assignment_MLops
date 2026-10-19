@@ -42,3 +42,4 @@ def test_load_raw_parses_question_marks(tmp_path):
     df = load_raw(path)
     assert list(df.columns) == config.RAW_COLUMNS
     assert np.isnan(df.loc[0, "ca"])
+    
